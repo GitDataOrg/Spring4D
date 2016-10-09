@@ -16,12 +16,18 @@
 
 # Документация Spring4D
 
-[Документация Spring4D](https://gitdataorg.github.io/Spring4D/)
+Страница [документации Spring4D](https://gitdataorg.github.io/Spring4D/)
 
 
-[Документация Spring4D версия 1.1.3](https://gitdataorg.github.io/Spring4D/1.1.3/Html/index.htm)
-[Скачать файла CHM](https://gitdataorg.github.io/Spring4D/1.1.3/CHM/Spring4D.chm)
+## Документация версии 1.1.3
+
+Страница документации <https://gitdataorg.github.io/Spring4D/1.1.3/Html/index.htm> версии 1.1.3
+
+[Скачать файл CHM](https://gitdataorg.github.io/Spring4D/1.1.3/CHM/Spring4D.chm)
 
 
-[Документация Spring4D версия 1.1.4](https://gitdataorg.github.io/Spring4D/1.1.4/Html/index.htm)
-[Скачать файла CHM](https://gitdataorg.github.io/Spring4D/1.1.4/CHM/Spring4D.chm)
+## Документация версии 1.1.4
+
+Страница документации <https://gitdataorg.github.io/Spring4D/1.1.4/Html/index.htm> версии 1.1.4
+
+[Скачать файл CHM](https://gitdataorg.github.io/Spring4D/1.1.4/CHM/Spring4D.chm)
