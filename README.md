@@ -3,10 +3,25 @@
 -------------------------------------------------------------------------------------------------
 
 
-Spring4D is an open-source code library for Embarcadero Delphi 2010 and higher.
+Библиотека Spring4D с открытым исходным кодом для Embarcadero Delphi 2010 и выше.
 
-It consists of a number of different modules that contain a base class library (common types, interface based collection types, reflection extensions) and a dependency injection framework. It uses the Apache License 2.0.
+Включает в себя ряд различных модулей, которые содержат библиотеки базовых классов (общие типы, типы коллекций на основе интерфейсов, расширений отражения), а также библиотеку инъекции зависимостей.
 
-[The main repository](https://bitbucket.org/sglienke/spring4d)
+Распространяется под лиценцией Apache License 2.0.
 
-See online documentation on <http://gitdochub.github.io/Spring4D/> and <https://docs.spring4d.ru>
+Официальный [репозиторий разработки Spring4D](https://bitbucket.org/sglienke/spring4d)
+
+-------------------------------------------------------------------------------------------------
+
+
+# Документация Spring4D
+
+[Документация Spring4D](https://gitdataorg.github.io/Spring4D/)
+
+
+[Документация Spring4D версия 1.1.3](https://gitdataorg.github.io/Spring4D/1.1.3/Html/index.htm)
+[Скачать файла CHM](https://gitdataorg.github.io/Spring4D/1.1.3/CHM/Spring4D.chm)
+
+
+[Документация Spring4D версия 1.1.4](https://gitdataorg.github.io/Spring4D/1.1.4/Html/index.htm)
+[Скачать файла CHM](https://gitdataorg.github.io/Spring4D/1.1.4/CHM/Spring4D.chm)
