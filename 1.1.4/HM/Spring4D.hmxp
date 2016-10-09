@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<helpproject xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="helpproject.xsd" version="1.6" isskin="false" isrepository="false">
+  <config>
+    <namespaces/>
+    <export-task-groups/>
+    <helpwindows/>
+    <styleclasses>
+      <styleclass name="Code Example" shortcut="0">
+        <style-set media="screen" type="para">white-space:normal; page-break-inside:avoid; </style-set>
+        <style-set media="screen" type="text">font-family:Consolas; font-size:9pt; color:#000042; </style-set>
+      </styleclass>
+      <styleclass name="Normal" shortcut="0">
+        <style-set media="screen" type="para">line-height:1.25; </style-set>
+        <style-set media="screen" type="text">font-family:'Segoe UI'; font-size:10pt; </style-set>
+      </styleclass>
+      <styleclass name="API Note" parentclass="Normal" shortcut="0">
+        <style-set media="screen" type="para">margin-top:5px; margin-right:5px; margin-bottom:5px; margin-left:5px; </style-set>
+        <style-set media="screen" type="text">font-weight:bold; </style-set>
+      </styleclass>
+      <styleclass name="Column" parentclass="Normal" shortcut="0">
+        <style-set media="screen" type="text">font-weight:bold; color:#707070; </style-set>
+      </styleclass>
+      <styleclass name="Comment" parentclass="Normal" shortcut="0"/>
+      <styleclass name="Definition Description" parentclass="Normal" shortcut="0">
+        <style-set media="screen" type="para">margin-top:5px; </style-set>
+      </styleclass>
+      <styleclass name="Definition Term" parentclass="Normal" shortcut="0">
+        <style-set media="screen" type="para">margin-top:5px; line-height:1.0; </style-set>
+        <style-set media="screen" type="text">font-size:8pt; font-style:italic; </style-set>
+      </styleclass>
+      <styleclass name="Heading1" parentclass="Normal" shortcut="0">
+        <style-set media="screen" type="text">font-family:'Segoe UI'; font-size:18pt; font-weight:normal; color:#212121; </style-set>
+      </styleclass>
+      <styleclass name="Heading4" parentclass="Normal" shortcut="0">
+        <style-set media="screen" type="para">margin-top:6px; margin-bottom:3px; </style-set>
+        <style-set media="screen" type="text">font-family:'Segoe UI Semibold'; font-weight:bold; </style-set>
+      </styleclass>
+      <styleclass name="Image Caption" parentclass="Normal" shortcut="0">
+        <style-set media="screen" type="text">font-size:9pt; font-weight:bold; </style-set>
+      </styleclass>
+      <styleclass name="Inline Code" parentclass="Normal" shortcut="0">
+        <style-set media="screen" type="text">font-family:'Courier New'; </style-set>
+      </styleclass>
+      <styleclass name="Notes" parentclass="Normal" shortcut="0"/>
+      <styleclass name="Section Title" parentclass="Normal" shortcut="0">
+        <style-set media="screen" type="para">line-height:1.0; </style-set>
+        <style-set media="screen" type="text">font-family:'Segoe UI Semibold'; font-size:17pt; font-weight:normal; </style-set>
+      </styleclass>
+      <styleclass name="Subsection Title" parentclass="Normal" shortcut="0">
+        <style-set media="screen" type="para">margin-top:10px; </style-set>
+        <style-set media="screen" type="text">font-size:9pt; font-weight:bold; </style-set>
+      </styleclass>
+      <tablestyleclass name="Default">
+        <style-set media="screen">width:auto; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none; </style-set>
+      </tablestyleclass>
+      <tablestyleclass name="Member List" parentclass="Table Styles">
+        <style-set media="screen">width:100%; cell-padding:5px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#d5d5d3; border-style:solid; background-color:none; head-row-background-color:#ededed; alt-row-background-color:none; </style-set>
+      </tablestyleclass>
+      <tablestyleclass name="Note Table">
+        <style-set media="screen">width:auto; cell-padding:3px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#bbbbbb; border-style:solid; background-color:none; head-row-background-color:#ededed; alt-row-background-color:none; </style-set>
+      </tablestyleclass>
+      <tablestyleclass name="Section Block">
+        <style-set media="screen">width:auto; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none; </style-set>
+      </tablestyleclass>
+    </styleclasses>
+    <config-group name="project">
+      <config-value name="title">Spring4D</config-value>
+      <config-value name="author" translate="true"></config-value>
+      <config-value name="copyright" translate="true">© &lt;%YEAR%&gt; &lt;%AUTHOR%&gt;</config-value>
+      <config-value name="versionmajor">1</config-value>
+      <config-value name="versionminor">0</config-value>
+      <config-value name="versionbuild">0</config-value>
+      <config-value name="lcid">en-us</config-value>
+      <config-value name="charset">ANSI_CHARSET</config-value>
+      <config-value name="searchpath">.\</config-value>
+    </config-group>
+    <config-group name="Documentation Insight">
+    </config-group>
+    <variables/>
+    <helpcontext-numbers/>
+  </config>
+  <xi:include parse="xml" href="Maps/table_of_contents.xml"/>
+  <project-files>
+    <file href="Topics/*.xml" build="ALL" filetype="topic"/>
+    <file href="Baggage/*.*" build="ALL" filetype="baggage"/>
+  </project-files>
+</helpproject>
